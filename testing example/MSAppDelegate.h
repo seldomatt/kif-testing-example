@@ -7,6 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "MSButtonViewController.h"
 
 @interface MSAppDelegate : UIResponder <UIApplicationDelegate>
 

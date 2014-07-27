@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		058A47E508124DF3B04F7142 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EB12F02DF7BC49448201AD83 /* libPods.a */; };
 		91BAD779198599BB0031E44E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91BAD778198599BB0031E44E /* Foundation.framework */; };
 		91BAD77B198599BB0031E44E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91BAD77A198599BB0031E44E /* CoreGraphics.framework */; };
 		91BAD77D198599BB0031E44E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91BAD77C198599BB0031E44E /* UIKit.framework */; };
@@ -19,6 +20,14 @@
 		91BAD794198599BB0031E44E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91BAD77C198599BB0031E44E /* UIKit.framework */; };
 		91BAD79C198599BB0031E44E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 91BAD79A198599BB0031E44E /* InfoPlist.strings */; };
 		91BAD79E198599BB0031E44E /* testing_exampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 91BAD79D198599BB0031E44E /* testing_exampleTests.m */; };
+		91BAD7AA19859AB70031E44E /* MSButtonViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 91BAD7A819859AB70031E44E /* MSButtonViewController.m */; };
+		91BAD7AB19859AB70031E44E /* MSButtonViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 91BAD7A919859AB70031E44E /* MSButtonViewController.xib */; };
+		91BAD7B11985B62F0031E44E /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91BAD791198599BB0031E44E /* XCTest.framework */; };
+		91BAD7B21985B62F0031E44E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91BAD778198599BB0031E44E /* Foundation.framework */; };
+		91BAD7B31985B62F0031E44E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91BAD77C198599BB0031E44E /* UIKit.framework */; };
+		91BAD7B91985B62F0031E44E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 91BAD7B71985B62F0031E44E /* InfoPlist.strings */; };
+		91BAD7C41985B93A0031E44E /* ButtonTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 91BAD7C31985B93A0031E44E /* ButtonTests.m */; };
+		F7F304A66E42409C90099D4A /* libPods-Acceptance Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0BB389384CFE4E82B3117092 /* libPods-Acceptance Tests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,9 +38,18 @@
 			remoteGlobalIDString = 91BAD774198599BB0031E44E;
 			remoteInfo = "testing example";
 		};
+		91BAD7BD1985B62F0031E44E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 91BAD76D198599BB0031E44E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 91BAD774198599BB0031E44E;
+			remoteInfo = "testing example";
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0BB389384CFE4E82B3117092 /* libPods-Acceptance Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Acceptance Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4DA17C0573F34CC487D350A1 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
 		91BAD775198599BB0031E44E /* testing example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "testing example.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		91BAD778198599BB0031E44E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		91BAD77A198599BB0031E44E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -48,6 +66,17 @@
 		91BAD799198599BB0031E44E /* testing exampleTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "testing exampleTests-Info.plist"; sourceTree = "<group>"; };
 		91BAD79B198599BB0031E44E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		91BAD79D198599BB0031E44E /* testing_exampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = testing_exampleTests.m; sourceTree = "<group>"; };
+		91BAD7A719859AB70031E44E /* MSButtonViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSButtonViewController.h; sourceTree = "<group>"; };
+		91BAD7A819859AB70031E44E /* MSButtonViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSButtonViewController.m; sourceTree = "<group>"; };
+		91BAD7A919859AB70031E44E /* MSButtonViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MSButtonViewController.xib; sourceTree = "<group>"; };
+		91BAD7B01985B62F0031E44E /* Acceptance Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Acceptance Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		91BAD7B61985B62F0031E44E /* Acceptance Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Acceptance Tests-Info.plist"; sourceTree = "<group>"; };
+		91BAD7B81985B62F0031E44E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		91BAD7BC1985B62F0031E44E /* Acceptance Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Acceptance Tests-Prefix.pch"; sourceTree = "<group>"; };
+		91BAD7C21985B93A0031E44E /* ButtonTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ButtonTests.h; sourceTree = "<group>"; };
+		91BAD7C31985B93A0031E44E /* ButtonTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ButtonTests.m; sourceTree = "<group>"; };
+		EB12F02DF7BC49448201AD83 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF755977F1C74BB4B4EDB5B6 /* Pods-Acceptance Tests.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Acceptance Tests.xcconfig"; path = "Pods/Pods-Acceptance Tests.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +87,7 @@
 				91BAD77B198599BB0031E44E /* CoreGraphics.framework in Frameworks */,
 				91BAD77D198599BB0031E44E /* UIKit.framework in Frameworks */,
 				91BAD779198599BB0031E44E /* Foundation.framework in Frameworks */,
+				058A47E508124DF3B04F7142 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -71,6 +101,17 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		91BAD7AD1985B62F0031E44E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91BAD7B11985B62F0031E44E /* XCTest.framework in Frameworks */,
+				91BAD7B31985B62F0031E44E /* UIKit.framework in Frameworks */,
+				91BAD7B21985B62F0031E44E /* Foundation.framework in Frameworks */,
+				F7F304A66E42409C90099D4A /* libPods-Acceptance Tests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -79,8 +120,11 @@
 			children = (
 				91BAD77E198599BB0031E44E /* testing example */,
 				91BAD797198599BB0031E44E /* testing exampleTests */,
+				91BAD7B41985B62F0031E44E /* Acceptance Tests */,
 				91BAD777198599BB0031E44E /* Frameworks */,
 				91BAD776198599BB0031E44E /* Products */,
+				4DA17C0573F34CC487D350A1 /* Pods.xcconfig */,
+				EF755977F1C74BB4B4EDB5B6 /* Pods-Acceptance Tests.xcconfig */,
 			);
 			sourceTree = "<group>";
 		};
@@ -89,6 +133,7 @@
 			children = (
 				91BAD775198599BB0031E44E /* testing example.app */,
 				91BAD790198599BB0031E44E /* testing exampleTests.xctest */,
+				91BAD7B01985B62F0031E44E /* Acceptance Tests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -100,6 +145,8 @@
 				91BAD77A198599BB0031E44E /* CoreGraphics.framework */,
 				91BAD77C198599BB0031E44E /* UIKit.framework */,
 				91BAD791198599BB0031E44E /* XCTest.framework */,
+				EB12F02DF7BC49448201AD83 /* libPods.a */,
+				0BB389384CFE4E82B3117092 /* libPods-Acceptance Tests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -109,6 +156,9 @@
 			children = (
 				91BAD787198599BB0031E44E /* MSAppDelegate.h */,
 				91BAD788198599BB0031E44E /* MSAppDelegate.m */,
+				91BAD7A719859AB70031E44E /* MSButtonViewController.h */,
+				91BAD7A819859AB70031E44E /* MSButtonViewController.m */,
+				91BAD7A919859AB70031E44E /* MSButtonViewController.xib */,
 				91BAD78A198599BB0031E44E /* Images.xcassets */,
 				91BAD77F198599BB0031E44E /* Supporting Files */,
 			);
@@ -144,6 +194,26 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		91BAD7B41985B62F0031E44E /* Acceptance Tests */ = {
+			isa = PBXGroup;
+			children = (
+				91BAD7B51985B62F0031E44E /* Supporting Files */,
+				91BAD7C21985B93A0031E44E /* ButtonTests.h */,
+				91BAD7C31985B93A0031E44E /* ButtonTests.m */,
+			);
+			path = "Acceptance Tests";
+			sourceTree = "<group>";
+		};
+		91BAD7B51985B62F0031E44E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				91BAD7B61985B62F0031E44E /* Acceptance Tests-Info.plist */,
+				91BAD7B71985B62F0031E44E /* InfoPlist.strings */,
+				91BAD7BC1985B62F0031E44E /* Acceptance Tests-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -151,9 +221,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 91BAD7A1198599BB0031E44E /* Build configuration list for PBXNativeTarget "testing example" */;
 			buildPhases = (
+				62A2C0EF327A46C6957DF4A3 /* Check Pods Manifest.lock */,
 				91BAD771198599BB0031E44E /* Sources */,
 				91BAD772198599BB0031E44E /* Frameworks */,
 				91BAD773198599BB0031E44E /* Resources */,
+				AD517FF05291477CB16FF819 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -182,6 +254,26 @@
 			productReference = 91BAD790198599BB0031E44E /* testing exampleTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		91BAD7AF1985B62F0031E44E /* Acceptance Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 91BAD7C11985B62F0031E44E /* Build configuration list for PBXNativeTarget "Acceptance Tests" */;
+			buildPhases = (
+				947F6B667DE44ED5A023C2DB /* Check Pods Manifest.lock */,
+				91BAD7AC1985B62F0031E44E /* Sources */,
+				91BAD7AD1985B62F0031E44E /* Frameworks */,
+				91BAD7AE1985B62F0031E44E /* Resources */,
+				5055AFFFFAE7416482C13B77 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				91BAD7BE1985B62F0031E44E /* PBXTargetDependency */,
+			);
+			name = "Acceptance Tests";
+			productName = "Acceptance Tests";
+			productReference = 91BAD7B01985B62F0031E44E /* Acceptance Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -193,6 +285,9 @@
 				ORGANIZATIONNAME = "Matthew Salerno";
 				TargetAttributes = {
 					91BAD78F198599BB0031E44E = {
+						TestTargetID = 91BAD774198599BB0031E44E;
+					};
+					91BAD7AF1985B62F0031E44E = {
 						TestTargetID = 91BAD774198599BB0031E44E;
 					};
 				};
@@ -211,6 +306,7 @@
 			targets = (
 				91BAD774198599BB0031E44E /* testing example */,
 				91BAD78F198599BB0031E44E /* testing exampleTests */,
+				91BAD7AF1985B62F0031E44E /* Acceptance Tests */,
 			);
 		};
 /* End PBXProject section */
@@ -222,6 +318,7 @@
 			files = (
 				91BAD783198599BB0031E44E /* InfoPlist.strings in Resources */,
 				91BAD78B198599BB0031E44E /* Images.xcassets in Resources */,
+				91BAD7AB19859AB70031E44E /* MSButtonViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -233,13 +330,85 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		91BAD7AE1985B62F0031E44E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91BAD7B91985B62F0031E44E /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5055AFFFFAE7416482C13B77 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-Acceptance Tests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		62A2C0EF327A46C6957DF4A3 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		947F6B667DE44ED5A023C2DB /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		AD517FF05291477CB16FF819 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		91BAD771198599BB0031E44E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				91BAD7AA19859AB70031E44E /* MSButtonViewController.m in Sources */,
 				91BAD789198599BB0031E44E /* MSAppDelegate.m in Sources */,
 				91BAD785198599BB0031E44E /* main.m in Sources */,
 			);
@@ -253,6 +422,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		91BAD7AC1985B62F0031E44E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91BAD7C41985B93A0031E44E /* ButtonTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -260,6 +437,11 @@
 			isa = PBXTargetDependency;
 			target = 91BAD774198599BB0031E44E /* testing example */;
 			targetProxy = 91BAD795198599BB0031E44E /* PBXContainerItemProxy */;
+		};
+		91BAD7BE1985B62F0031E44E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 91BAD774198599BB0031E44E /* testing example */;
+			targetProxy = 91BAD7BD1985B62F0031E44E /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -276,6 +458,14 @@
 			isa = PBXVariantGroup;
 			children = (
 				91BAD79B198599BB0031E44E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		91BAD7B71985B62F0031E44E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				91BAD7B81985B62F0031E44E /* en */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
@@ -355,6 +545,7 @@
 		};
 		91BAD7A2198599BB0031E44E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4DA17C0573F34CC487D350A1 /* Pods.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -368,6 +559,7 @@
 		};
 		91BAD7A3198599BB0031E44E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4DA17C0573F34CC487D350A1 /* Pods.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -419,6 +611,48 @@
 			};
 			name = Release;
 		};
+		91BAD7BF1985B62F0031E44E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EF755977F1C74BB4B4EDB5B6 /* Pods-Acceptance Tests.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/testing example.app/testing example";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Acceptance Tests/Acceptance Tests-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Acceptance Tests/Acceptance Tests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		91BAD7C01985B62F0031E44E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EF755977F1C74BB4B4EDB5B6 /* Pods-Acceptance Tests.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/testing example.app/testing example";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Acceptance Tests/Acceptance Tests-Prefix.pch";
+				INFOPLIST_FILE = "Acceptance Tests/Acceptance Tests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -438,6 +672,7 @@
 				91BAD7A3198599BB0031E44E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		91BAD7A4198599BB0031E44E /* Build configuration list for PBXNativeTarget "testing exampleTests" */ = {
 			isa = XCConfigurationList;
@@ -446,6 +681,16 @@
 				91BAD7A6198599BB0031E44E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		91BAD7C11985B62F0031E44E /* Build configuration list for PBXNativeTarget "Acceptance Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				91BAD7BF1985B62F0031E44E /* Debug */,
+				91BAD7C01985B62F0031E44E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
